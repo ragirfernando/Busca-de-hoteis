@@ -1,0 +1,10 @@
+com/mycompany/hotel/palmas/model/Estado.class
+com/mycompany/hotel/palmas/model/Reserva.class
+com/mycompany/hotel/palmas/model/Hotel.class
+com/mycompany/hotel/palmas/dao/JpaDao.class
+com/mycompany/hotel/palmas/model/Quarto.class
+com/mycompany/hotel/palmas/model/Cidade.class
+com/mycompany/hotel/palmas/model/HotelInterface.class
+com/mycompany/hotel/palmas/dao/Dao.class
+com/mycompany/hotel/palmas/config/Producers.class
+com/mycompany/hotel/palmas/model/Bairro.class

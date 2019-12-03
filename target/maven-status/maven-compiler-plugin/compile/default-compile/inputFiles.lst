@@ -1,0 +1,10 @@
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/HotelInterface.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Quarto.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/config/Producers.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Reserva.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/dao/Dao.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/dao/JpaDao.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Cidade.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Bairro.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Hotel.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Estado.java
