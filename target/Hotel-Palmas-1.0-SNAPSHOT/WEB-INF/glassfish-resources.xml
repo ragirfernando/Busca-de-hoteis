@@ -8,7 +8,7 @@
                           connection-leak-reclaim="false" 
                           connection-leak-timeout-in-seconds="0" 
                           connection-validation-method="auto-commit" 
-                          datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlDataSource" 
+                          datasource-classname="com.mysql.cj.jdbc.MysqlDataSource" 
                           fail-all-connections="false" idle-timeout-in-seconds="300" 
                           is-connection-validation-required="false" 
                           is-isolation-level-guaranteed="true" 
@@ -17,7 +17,7 @@
                           match-connections="false" 
                           max-connection-usage-count="0" 
                           max-pool-size="32" max-wait-time-in-millis="60000" 
-                          name="mysql_Hotel_rootPool" 
+                          name="mysql_hotel_rootPool" 
                           non-transactional-connections="false" 
                           pool-resize-quantity="2" 
                           res-type="javax.sql.DataSource" 
@@ -27,11 +27,11 @@
                           wrap-jdbc-objects="false">
         <property name="serverName" value="localhost"/>
         <property name="portNumber" value="3306"/>
-        <property name="databaseName" value="Hotel"/>
+        <property name="databaseName" value="hotel"/>
         <property name="User" value="root"/>
         <property name="Password" value="123456"/>
-        <property name="URL" value="jdbc:mysql://localhost:3306/Hotel?zeroDateTimeBehavior=convertToNull"/>
-        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="URL" value="jdbc:mysql://localhost:3306/hotel?useSSL=false"/>
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
     </jdbc-connection-pool>
-    <jdbc-resource enabled="true" jndi-name="java:app/hotel-rest" object-type="user" pool-name="mysql_Hotel_rootPool"/>
+    <jdbc-resource enabled="true" jndi-name="java:app/hotel-rest" object-type="user" pool-name="mysql_hotel_rootPool"/>
 </resources>

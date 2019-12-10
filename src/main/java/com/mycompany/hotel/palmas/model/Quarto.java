@@ -1,27 +1,22 @@
 package com.mycompany.hotel.palmas.model;
 
-import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "quarto")
-public class Quarto implements HotelInterface, Serializable{
+public class Quarto implements Cadastro{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private int numeroDoQuarto;
     private int andar;
     private int quantidadeDeCamas;
-    private Double valor;
+    private double valor;
     
     @ManyToOne
-    @JoinColumn(name = "id_hotel", referencedColumnName = "id")
     private Hotel hotel;
 
     @Override
