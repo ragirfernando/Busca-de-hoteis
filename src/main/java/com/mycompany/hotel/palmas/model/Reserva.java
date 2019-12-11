@@ -1,13 +1,12 @@
 package com.mycompany.hotel.palmas.model;
 
-import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.Temporal;
 
 @Entity
 public class Reserva implements Cadastro{
@@ -16,11 +15,10 @@ public class Reserva implements Cadastro{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     
-    @Temporal(javax.persistence.TemporalType.DATE)
-    private Date chegada;
-    
-    @Temporal(javax.persistence.TemporalType.DATE)
-    private Date saida;
+   
+    private LocalDate chegada;    
+   
+    private LocalDate saida;
     
     @ManyToOne
     private Hotel hotel;
@@ -35,28 +33,29 @@ public class Reserva implements Cadastro{
         this.id = id;
     }
 
-    public Date getChegada() {
-        return chegada;
-    }
-
-    public void setChegada(Date chegada) {
-        this.chegada = chegada;
-    }
-
-    public Date getSaida() {
-        return saida;
-    }
-
-    public void setSaida(Date saida) {
-        this.saida = saida;
-    }
-
+    
     public Hotel getHotel() {
         return hotel;
     }
 
     public void setHotel(Hotel hotel) {
         this.hotel = hotel;
+    }
+
+    public LocalDate getChegada() {
+        return chegada;
+    }
+
+    public void setChegada(LocalDate chegada) {
+        this.chegada = chegada;
+    }
+
+    public LocalDate getSaida() {
+        return saida;
+    }
+
+    public void setSaida(LocalDate saida) {
+        this.saida = saida;
     }
     
     

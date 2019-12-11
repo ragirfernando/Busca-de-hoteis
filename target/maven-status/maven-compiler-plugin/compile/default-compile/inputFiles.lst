@@ -5,10 +5,8 @@
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Cidade.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Bairro.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/rest/ReservarQuarto.java
-/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/rest/BuscarHoteisCidadeValorCamas.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Estado.java
-/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/rest/BuscarHoteisCidade.java
-/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/rest/BuscarHoteisBairro.java
+/home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/dao/HotelDao.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Reserva.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/model/Cadastro.java
 /home/ragir/Sistemas-para-Internet/Sistemas-Distribuidos/Hotel-Palmas/Hotel-Palmas/src/main/java/com/mycompany/hotel/palmas/rest/HotelResource.java

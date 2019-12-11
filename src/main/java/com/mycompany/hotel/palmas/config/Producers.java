@@ -1,6 +1,7 @@
 package com.mycompany.hotel.palmas.config;
 
 import com.mycompany.hotel.palmas.dao.Dao;
+import com.mycompany.hotel.palmas.dao.HotelDao;
 import com.mycompany.hotel.palmas.dao.JpaDao;
 import java.lang.reflect.ParameterizedType;
 import javax.enterprise.inject.Produces;
@@ -20,5 +21,10 @@ public class Producers {
         ParameterizedType parameterizedType = (ParameterizedType) ip.getType();
        Class classe = (Class ) parameterizedType.getActualTypeArguments()[0];
         return new JpaDao(manager, classe);
+    }
+    
+    @Produces
+    public HotelDao getHotelDao(InjectionPoint ip){
+        return new HotelDao(manager);
     }
 }
